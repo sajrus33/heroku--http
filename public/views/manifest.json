@@ -1,0 +1,8 @@
+{
+    "name": "Portfolio - Wala Brian. Junior Frontend Developer",
+    "short_name": "Portfolio-WB",
+    "display": "standalone",
+    "Scope": "https://sajrus33.github.io/Portfolio/",
+    "start_url": "https://sajrus33.github.io/Portfolio/index.html",
+    "splash_pages": "null"
+}
