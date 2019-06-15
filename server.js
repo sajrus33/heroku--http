@@ -9,13 +9,16 @@ const indexFilePath = "views/index.html";
 
 const server = http
   .createServer((req, res) => {
-    console.log(req.url);
+
+    if(req.url[1]=="?"){
+      req.url = "/";
+    }
    
       // Build file path
       let filePath = path.join(
         __dirname,
         publicDirPath,
-        req.url === "/" ? indexFilePath : req.url
+        req.url === "/"? indexFilePath : req.url
       );
       console.log({filePath});
       // extname
